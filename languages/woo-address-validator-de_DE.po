@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Address Validator\n"
+"POT-Creation-Date: 2022-06-24 08:18+0200\n"
+"PO-Revision-Date: 2022-06-24 08:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;esc_html_e;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/Admin.php:145
+msgid "Address Validator"
+msgstr "Address Validator"
+
+#: src/Admin.php:162
+msgid "An error occured."
+msgstr "Ein Fehler ist aufgetreten."
+
+#: src/Admin.php:163 src/WC/WCAV_WC_Admin.php:97
+msgid "API Result"
+msgstr "API Ergebnis"
+
+#: src/Admin.php:183
+msgid "Woocommerce Address Validator"
+msgstr "Woocommerce Address Validator"
+
+#: src/Admin.php:186
+msgid ""
+"It looks like your API key is invalid or depleted. Please check your key and "
+"the account balance."
+msgstr ""
+"Der API Key ist nicht gültig oder die Credits sind aufgebraucht. Bitte den "
+"API Key prüfen und aktualisieren."
+
+#: src/Admin.php:187
+#, php-format
+msgid ""
+"You can log into your Address-Validator account here <a href=\"%s\">here</a>."
+msgstr ""
+"<a href=\"%s\">Hier</a> kannst Du Dich in Deinen Address-Validator Account "
+"einloggen."
+
+#: src/Admin.php:196
+msgid "API Key"
+msgstr "API Key"
+
+#: src/Admin.php:204
+msgid "Allow INVALID Addresses"
+msgstr "Ungültige Adressen zulassen"
+
+#: src/Admin.php:212
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: src/Admin.php:218
+msgid ""
+"Allow INVALID Addresses will prompt the user to check an address that could "
+"not be validated, and allow them to continue (contributed by \"Simply "
+"Charlotte Mason\")."
+msgstr ""
+"Die Option \"Ungültige Adressen zulassen\" fordert den Benutzer auf, "
+"Adressen die nicht validiert werden konnten zu überprüfen, und erlaubt dann "
+"die Fortsetzung des Checkouts (diese Funktion ist ein Beitrag von \"Simply "
+"Charlotte Mason\")."
+
+#: src/Admin.php:223
+msgid ""
+"With Address-Validator you can easily verify any national or international "
+"postal address. Stop wasting time and money with undelivered packages or "
+"having to reach out to customers to get the correct addresses."
+msgstr ""
+"Mit dem Address-Validator kannst Du ganz einfach jede nationale oder "
+"internationale Postanschrift überprüfen. Endlich Schluss mit unzustellbaren "
+"Paketen oder endlosen Nachforschungen, um die richtigen Adressen Deiner "
+"Kunden zu erhalten."
+
+#: src/Admin.php:230
+#, php-format
+msgid ""
+"<a href=\"%1$s\" target=\"_blank\">Sign up here for your free API key</a> "
+"and get 625 free credits."
+msgstr ""
+"<a href=\"%1$s\" target=\"_blank\">Hier bekommst Du Deinen API Key</a> mit "
+"625 kostenlosen Credits."
+
+#: src/Admin.php:252
+msgid "Your Address-Validator API key is invalid or depleted."
+msgstr "Der API Key ist ungültig oder die Credits sind verbraucht."
+
+#: src/Admin.php:259
+#, php-format
+msgid ""
+"You can view/update the API key <a href=\"%s\">on the settings page</a>."
+msgstr "API Key <a href=\"%s\">auf der Einstellungsseite</a> prüfen/ändern."
+
+#: src/WC/WC.php:222
+msgid "We have corrected your address. Please check the address again."
+msgstr ""
+"Wir haben die Adresse korrigiert. Bitte prüfen, ob die Angaben jetzt stimmen."
+
+#: src/WC/WC.php:224
+msgid "Your address could not be verified. Please check the address again."
+msgstr ""
+"Die Adresse konnte nicht verifiziert werden. Bitte überprüfen Sie die "
+"Adresse erneut."
+
+#: src/WC/WC.php:226
+msgid "Please enter a valid address."
+msgstr "Bitte eine gültige Adresse angeben."
+
+#: src/WC/WCAV_WC_Admin.php:29 src/WC/WCAV_WC_Admin.php:55
+msgid "Not checked."
+msgstr "Nicht geprüft."
+
+#: src/WC/WCAV_WC_Admin.php:75 src/WC/WCAV_WC_Admin.php:99
+msgid "Address status: "
+msgstr "Adress Status: "
+
+#: src/WC/WCAV_WC_Admin.php:92
+msgid "Validate"
+msgstr "Prüfen"
+
+#: src/WC/WCAV_WC_Admin.php:106
+msgid "Sanitized Address:"
+msgstr "Bereinigte Adresse:"
